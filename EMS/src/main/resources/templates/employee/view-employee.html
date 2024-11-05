@@ -1,0 +1,35 @@
+<!-- view-employee.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Employee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Employee Details</h2>
+        <div class="card mt-4">
+            <div class="card-body">
+            <!-- <form action="@{/view-employee/{companyMail}(companyMail=${employee.companyMail})}" method="get">
+                <p><strong>Employee ID:</strong> <span th:text="${employee.empId}"></span></p>
+                <p><strong>Full Name:</strong> <span th:text="${employee.fullName}"></span></p>
+                <p><strong>Email:</strong> <span th:text="${employee.personalEmail}"></span></p>
+                <p><strong>Phone:</strong> <span th:text="${employee.mobile}"></span></p>
+                <p><strong>Company Email:</strong> <span th:text="${employee.companyMail}"></span></p>
+                <p><strong>Reporting Manager:</strong> <span th:text="${employee.reportingManager}"></span></p>
+                <p><strong>HR Name:</strong> <span th:text="${employee.hrName}"></span></p>
+                <p><strong>Project Details:</strong> <span th:text="${employee.projectDetails}"></span></p>
+                Add other fields as necessary
+                </form> -->
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+            <a href="/employee/user" class="btn btn-primary">Back to Dashboard</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
